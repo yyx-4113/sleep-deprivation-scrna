@@ -1,0 +1,57 @@
+﻿# Large data files
+data/*.h5ad
+data/*.tsv.gz
+data/external/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+scripts/__pycache__/
+
+# R files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+
+# Output files (too large for git)
+results/figures/*.png
+results/tables/*.csv
+
+# Keep the directory structure
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Conda/venv
+.env/
+venv/
+
+# PepDesign models (large, use Zenodo)
+pepdesign/models/*.npz
+*.npz
+
+# Submission files that are too large for git
+bioRxiv_submission/supplementary_files.zip
+*.zip
+
+# PDFs (generated from scripts)
+bioRxiv_submission/*.pdf
+hal_submission/*.pdf
+researchsquare_submission/*.pdf

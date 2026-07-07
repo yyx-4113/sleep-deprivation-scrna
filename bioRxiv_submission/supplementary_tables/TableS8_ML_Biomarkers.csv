@@ -1,0 +1,7 @@
+gene,in_LASSO,in_RF,in_SVM,is_TF
+Dbp,True,True,True,False
+Nr3c1,True,True,True,False
+Pomc,True,True,True,False
+Rbm3,True,True,True,False
+Rnaset2a,True,True,True,False
+Tsc22d3,True,True,True,False
