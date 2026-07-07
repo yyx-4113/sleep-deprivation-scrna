@@ -1,0 +1,13 @@
+{
+  "model": "ConvVAE_v2",
+  "latent_dim": 64,
+  "n_peptides": 52517,
+  "epochs": 80,
+  "initial_loss": 2.946855629157556,
+  "final_loss": 2.884796433785246,
+  "reconstruction_accuracy": 0.1036343416739779,
+  "latent_pca_variance": 1.0000001192092896,
+  "training_time_s": 295.5344066619873,
+  "device": "cpu",
+  "lr": 0.0001
+}

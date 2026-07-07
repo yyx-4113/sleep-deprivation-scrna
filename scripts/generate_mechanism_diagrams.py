@@ -143,8 +143,18 @@ def draw_nsfc(output_path):
 
     # POMC -> Pcsk2
     arrow_d(ax, 9.4, 6.1, 5.68, C['gray'], lw=1.8)
+    # GRNBoost2 importance label on Pomc -> Pcsk2 edge
+    ax.text(10.0, 5.63, 'GBR imp=0.766\n(Top 1 target)', fontsize=5.5,
+            color=C['coral'], ha='center', style='italic', zorder=6)
     box_tinted(ax, 8.0, 5.15, 2.8, 0.48, C['coral_lt'], C['coral'],
                'Pcsk2 蛋白酶  DOWN', fontsize=8.5, text_color=C['coral'])
+
+    # Pcsk2 promoter TF binding predictions (new!)
+    ax.text(8.0, 4.35, 'Pcsk2 Promoter: CREB1 (-291) Fos/JunB (-607 TRE)',
+            fontsize=5.5, color=C['blue'], ha='left', style='italic', zorder=6)
+    # Virtual KO predicted downstream targets
+    ax.text(8.0, 4.15, 'Predicted targets: Scg2(-0.32) Ccnd2(-0.38) Dbp(↓)',
+            fontsize=5.2, color=C['purple'], ha='left', style='italic', zorder=6)
 
     # Peptides
     arrow(ax, 9.4, 5.15, 8.3, 4.5, C['gray'], lw=1.5)
@@ -159,11 +169,14 @@ def draw_nsfc(output_path):
                 arrowprops=dict(arrowstyle='->', color=C['orange'], lw=4,
                                 connectionstyle='arc3,rad=-0.55'),
                 zorder=5)
+    # GBR importance on feedback edge
+    ax.text(4.5, 3.65, 'GBR imp=0.510 (Top 1 TF)\nPcsk2 -> Pomc',
+            fontsize=5.5, color=C['orange'], ha='center', style='italic', zorder=6)
     ax.text(5.8, 3.3, '正反馈环路  Positive Feedback', fontsize=8.5,
             fontweight='bold', color=C['orange'], ha='center',
             bbox=dict(boxstyle='round,pad=0.25', facecolor='white',
                       edgecolor=C['orange'], alpha=0.9))
-    ax.text(5.8, 2.95, '[X] 环路断裂', fontsize=8.5,
+    ax.text(5.8, 2.95, '[X] 环路断裂  (双打击放大器)', fontsize=8.5,
             fontweight='bold', color=C['coral'], ha='center',
             bbox=dict(boxstyle='round,pad=0.15', facecolor='white',
                       edgecolor=C['coral'], lw=1.8))

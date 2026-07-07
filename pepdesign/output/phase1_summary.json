@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-07-04 23:32:50",
+  "hardware": "Intel Core i7-8550U, 8 GB RAM",
+  "pca_explained_variance": 0.49,
+  "pca_reconstruction_accuracy": 0.767,
+  "rf_score_auc": 0.937,
+  "surrogate_hgbr_r2": 0.969,
+  "surrogate_rf_r2": 0.955,
+  "replicates": {
+    "n": 5,
+    "mean_final_best": 1.0,
+    "std_final_best": 0.0,
+    "min": 1.0,
+    "max": 1.0
+  },
+  "bootstrap_ci_95": [
+    0.27661280455216286,
+    0.2943576925347811
+  ],
+  "negative_control": {
+    "real_mean": 0.8963332117837186,
+    "real_std": 0.08751807067389644,
+    "scrambled_mean": 0.9429294615156399,
+    "scrambled_std": 0.0489060135904497,
+    "n_tested": 200
+  },
+  "esm2": {
+    "status": "pending",
+    "note": "ESM-2 extraction requires ~1hr CPU for 5000 peptides. Based on the PCA surrogate R^2 of ~0.97 (near-perfect for the composite score), we expect ESM-2 (320-dim) to achieve comparable or slightly lower R^2 (0.90-0.95 range) due to the higher latent dimensionality and partial mismatch with short peptide properties.",
+    "planned_model": "esm2_t6_8M_UR50D",
+    "planned_n": 5000
+  },
+  "runtime_minutes": 1.086364225546519
+}

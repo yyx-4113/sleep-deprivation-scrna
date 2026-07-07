@@ -1,0 +1,6 @@
+{
+  "status": "pending",
+  "note": "ESM-2 extraction requires ~1hr CPU for 5000 peptides. Based on the PCA surrogate R^2 of ~0.97 (near-perfect for the composite score), we expect ESM-2 (320-dim) to achieve comparable or slightly lower R^2 (0.90-0.95 range) due to the higher latent dimensionality and partial mismatch with short peptide properties.",
+  "planned_model": "esm2_t6_8M_UR50D",
+  "planned_n": 5000
+}

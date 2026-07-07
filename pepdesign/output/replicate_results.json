@@ -1,0 +1,197 @@
+[
+  {
+    "seed": 42,
+    "final_best": 1.0,
+    "n_rounds": 4,
+    "rounds": [
+      {
+        "round": 1,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.3,
+        "top_sequence": "PSSAVVSL",
+        "n_pool": 5015
+      },
+      {
+        "round": 2,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.25078764062338105,
+        "top_sequence": "PVETA",
+        "n_pool": 5030
+      },
+      {
+        "round": 3,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.20964813563147378,
+        "top_sequence": "DIGGV",
+        "n_pool": 5045
+      },
+      {
+        "round": 4,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.17525720432035966,
+        "top_sequence": "GELSAK",
+        "n_pool": 5060
+      }
+    ]
+  },
+  {
+    "seed": 123,
+    "final_best": 1.0,
+    "n_rounds": 4,
+    "rounds": [
+      {
+        "round": 1,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.3,
+        "top_sequence": "GVDLGLA",
+        "n_pool": 5015
+      },
+      {
+        "round": 2,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.25078764062338105,
+        "top_sequence": "LDGSASA",
+        "n_pool": 5030
+      },
+      {
+        "round": 3,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.20964813563147378,
+        "top_sequence": "TDSAE",
+        "n_pool": 5045
+      },
+      {
+        "round": 4,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.17525720432035966,
+        "top_sequence": "GEP",
+        "n_pool": 5060
+      }
+    ]
+  },
+  {
+    "seed": 456,
+    "final_best": 1.0,
+    "n_rounds": 4,
+    "rounds": [
+      {
+        "round": 1,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.3,
+        "top_sequence": "VVVGEAG",
+        "n_pool": 5015
+      },
+      {
+        "round": 2,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.25078764062338105,
+        "top_sequence": "PILTPLA",
+        "n_pool": 5030
+      },
+      {
+        "round": 3,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.20964813563147378,
+        "top_sequence": "GGTEPALL",
+        "n_pool": 5045
+      },
+      {
+        "round": 4,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.17525720432035966,
+        "top_sequence": "INE",
+        "n_pool": 5060
+      }
+    ]
+  },
+  {
+    "seed": 789,
+    "final_best": 1.0,
+    "n_rounds": 4,
+    "rounds": [
+      {
+        "round": 1,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.3,
+        "top_sequence": "ILDTRA",
+        "n_pool": 5015
+      },
+      {
+        "round": 2,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.25078764062338105,
+        "top_sequence": "IVESGEVL",
+        "n_pool": 5030
+      },
+      {
+        "round": 3,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.20964813563147378,
+        "top_sequence": "TLTGPA",
+        "n_pool": 5045
+      },
+      {
+        "round": 4,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.17525720432035966,
+        "top_sequence": "DIDEIL",
+        "n_pool": 5060
+      }
+    ]
+  },
+  {
+    "seed": 1024,
+    "final_best": 1.0,
+    "n_rounds": 4,
+    "rounds": [
+      {
+        "round": 1,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.3,
+        "top_sequence": "ITLIDAL",
+        "n_pool": 5015
+      },
+      {
+        "round": 2,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.25078764062338105,
+        "top_sequence": "LVGSS",
+        "n_pool": 5030
+      },
+      {
+        "round": 3,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.20964813563147378,
+        "top_sequence": "EGEGG",
+        "n_pool": 5045
+      },
+      {
+        "round": 4,
+        "best_score": 1.0,
+        "top5_mean": 0.9999894261086043,
+        "noise_scale": 0.17525720432035966,
+        "top_sequence": "PELETL",
+        "n_pool": 5060
+      }
+    ]
+  }
+]

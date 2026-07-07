@@ -1,0 +1,32 @@
+{
+  "random_search_baseline": {
+    "budget": 2500,
+    "n_replicates": 10,
+    "mean_best_rpes": 0.7870235443115234,
+    "std_best_rpes": 0.008915374055504799,
+    "al_mean": 0.8059,
+    "al_vs_random_delta": 0.01887643337249756,
+    "al_vs_random_pct": 2.398458480834961
+  },
+  "dtr_sensitivity": {
+    "dg_thresholds_tested": [
+      -5.0,
+      -6.0,
+      -7.0,
+      -8.0,
+      -9.0
+    ],
+    "damping_factors_tested": [
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ]
+  },
+  "decoder_validity": {
+    "n_tested": 10000,
+    "valid_pct": 99.88,
+    "mean_length": 7.3059671605927115,
+    "std_length": 0.886814616433204
+  }
+}
