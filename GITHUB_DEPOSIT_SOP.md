@@ -1,191 +1,231 @@
-# 手把手操作卡：还剩 3 件事（约 5 分钟）
+# 剩余操作手册（约 5 分钟，纯中文）
 
-更新时间：2026-09-08 19:2x
+更新时间：2026-09-08 19:3x
 
-> 说明：GitHub 网页在你那边显示的是英文界面，所以下面每个按钮都写成
-> **「英文原名（中文意思）」**，你照着找英文单词点就行。
-
-## 先看：已经做完的（不用你动手）
-
-| 项目 | 状态 |
-|---|---|
-| 分支 `main` 推送 | 71 个文件，最新提交 `4532024` |
-| Tag `v1.0.0` | 已推送 |
-| **GitHub Release v1.0.0** | 已自动创建，<https://github.com/yyx-4113/sleep-deprivation-scrna/releases/tag/v1.0.0> |
-| 旧 `master` 分支 | 14.5 MB 旧内容原样保留，未删改 |
-| 用户名纠正 | 全项目 `yongxinyang` → `yyx-4113` |
-
-下面 3 件事**只能你本人做**（需要你的账号权限，我和本机网络都够不着），每步都写到"点哪个按钮"。
+> **阅读约定**：本手册正文**全中文**。GitHub 与 Zenodo 网页默认是英文界面，
+> 因此每步末尾单独附一张「界面英文对照表」，只在那里出现英文单词，正文不混排。
+>
+> **推荐做法**：用 Edge 或 Chrome 打开这些网页后，在页面空白处**右键 → 翻译成中文**，
+> 界面会变成中文，下面的步骤就能完全按中文照做，连对照表都不用看。
 
 ---
 
-# 第 1 步：改仓库描述 ★最重要
+## 已经做好的（不用你动手）
 
-> 现在仓库上写着 "…reveals Pomc as a central regulatory hub"（揭示了 Pomc 是中枢调控枢纽），
-> 而你这篇稿子论证的正是"Pomc 中枢调控这个结论站不住"。
-> 审稿人点开仓库会看到一句自我否定的话。**这一条优先级最高。**
+| 项目 | 状态 |
+|---|---|
+| 分支 main 推送 | 71 个文件，最新编号 4532024 |
+| 版本标签 v1.0.0 | 已推送 |
+| 发布页 Release v1.0.0 | 已自动创建 |
+| 旧的 master 分支 | 14.5 MB 旧内容原样保留，未删改 |
+| 用户名纠正 | 全项目已从错误名改为 yyx-4113 |
 
-### 1-1 打开设置页
+下面 3 件事**只能你本人做**：需要你的账号权限，我和本机网络都够不着。
 
-浏览器地址栏粘贴这个网址、回车：
+---
+
+# 第一步：改仓库描述（最重要，约 2 分钟）
+
+### 为什么要先做这个
+
+仓库上现在写的是一句英文，意思是「揭示 Pomc 是中枢调控枢纽」。
+而你这篇稿子论证的恰恰是「Pomc 中枢调控这个结论站不住」。
+审稿人点开仓库会看到一句自己否定自己的话，所以这条优先级最高。
+
+### 操作
+
+**1. 打开设置页**
+
+浏览器地址栏粘贴下面网址后回车：
 
 ```
 https://github.com/yyx-4113/sleep-deprivation-scrna/settings
 ```
 
-**前提**：页面右上角要能看到你自己的头像。如果看到 **Sign in（登录）**，先登录再打开上面的链接。
+先看右上角：如果显示的是登录入口，说明没登录，先登录（必须是 yyx-4113 这个账号）。
 
-### 1-2 找到描述输入框
+**2. 找到描述输入框**
 
-进来后页面**最上方**会有一张卡片，标题是 **About（关于）**，里面有三项：
+进来后，页面**最顶上**有一张卡片，标题是「关于」。
+里面第一行就是「描述」，输入框右边有一个**齿轮图标**。
+如果输入框是灰色的、不能打字，先点一下那个齿轮。
 
-| 字段（英文原名） | 中文意思 | 现在的内容 |
-|---|---|---|
-| **Description** | 描述 | Single-cell transcriptomic analysis of sleep deprivation reveals Pomc as a central regulatory hub |
-| Website | 网址 | （空） |
-| Topics | 主题标签 | （空） |
+**3. 清空并粘贴新内容**
 
-> 小提示：Description 输入框**右侧有一个齿轮图标 ⚙**。
-> 如果输入框是灰色不可编辑的，先点一下那个齿轮再改。
-
-### 1-3 清空并粘贴新描述
-
-把 Description 里**全部删掉**，然后粘贴这一行（一整行，不要换行）：
+把输入框里原来的内容**全部删掉**，然后粘贴下面这一整行（不要换行）：
 
 ```
 Reproducibility bundle for a data commentary on pseudoreplication, data leakage and inference limits in single-cell transcriptomics of sleep deprivation (GEO-driven inventory, code, adjudication records).
 ```
 
-（这句的意思是：睡眠剥夺单细胞转录组研究中"伪重复、数据泄漏与推断局限"的数据评论文章之复现包。仓库描述面向国际读者，保留英文即可。）
+这句话的意思是：睡眠剥夺单细胞转录组研究中，关于伪重复、数据泄漏与推断局限的数据评论文章的复现包。
+仓库描述面向国外读者，所以要粘贴英文原文，不要改成中文。
 
-### 1-4 保存
+**4. 保存**
 
-点输入框**右下角**的绿色按钮 **Save changes（保存更改）**。
+点输入框**右下角的绿色保存按钮**。
 
-### 1-5 怎么判断成功了
+**5. 怎样算成功**
 
-- 页面上方出现一条绿色提示条（写着 "Repository details updated"，即仓库信息已更新）
-- 打开仓库主页 <https://github.com/yyx-4113/sleep-deprivation-scrna>，
-  在仓库名 `sleep-deprivation-scrna` **正下方**，能看到刚粘贴的那句新描述
+- 页面上方弹出一条绿色提示条，提示仓库信息已更新
+- 打开仓库主页 `https://github.com/yyx-4113/sleep-deprivation-scrna`，
+  在仓库名**正下方**显示的是刚粘贴的新内容
 
-### 出问题了？
+### 出问题了怎么办
 
-- **看不到 Settings（设置）标签** → 当前登录的账号不是 `yyx-4113`，或没登录。右上角头像 → **Sign out（退出）** → 重新用正确账号登录。
-- **Save changes 点了没反应** → 检查描述是否超过 350 字符（上面这段约 190 字符，不会超）。
-- **提示 You need admin access（需要管理员权限）** → 该仓库当时是用别的账号建的，换成有管理员权限的账号登录。
+| 现象 | 原因与处理 |
+|---|---|
+| 看不到「设置」这个标签页 | 没登录，或登成了别的账号。右上角头像 → 退出 → 重新登录 |
+| 保存按钮点了没反应 | 检查内容是否超长，上面那段约 190 个字符，不会超 |
+| 提示需要管理员权限 | 这个仓库当初是用别的账号建的，换成有管理员权限的账号登录 |
+
+### 界面英文对照表（仅此一处出现英文）
+
+| 中文意思 | 网页上的英文原词 |
+|---|---|
+| 设置 | Settings |
+| 关于 | About |
+| 描述 | Description |
+| 齿轮（编辑按钮） | ⚙ 图标 |
+| 保存更改 | Save changes |
+| 登录 | Sign in |
+| 退出 | Sign out |
+| 需要管理员权限 | You need admin access |
 
 ---
 
-# 第 2 步：Zenodo 授权并拿 DOI
+# 第二步：在 Zenodo 上获取永久编号（约 3 分钟）
 
-### 2-1 打开 Zenodo 并用 GitHub 登录
+### 操作
 
-```
-https://zenodo.org/
-```
+**1. 登录 Zenodo**
 
-点页面**右上角**的 **Log in（登录）**，在登录方式里选带 GitHub 图标的按钮 **Log in with GitHub（用 GitHub 登录）**。
+打开 `https://zenodo.org`，点右上角「登录」，
+在登录方式里选**带 GitHub 图标的那一项**（用 GitHub 账号登录）。
+如果弹出授权页，点绿色的「授权」按钮。
 
-如果弹出授权页（标题 "Authorize Zenodo"，即授权 Zenodo），点绿色的 **Authorize zenodo（授权）**。
+**2. 打开仓库开关**
 
-> ⚠️ 如果你这边 zenodo.org 打不开或一直转圈：直接跳到本页最后的 **「备选方案」**，
-> 用 Science Data Bank（科学数据银行）一样能拿 DOI，不影响投稿。
-
-### 2-2 打开 GitHub 仓库开关
-
-登录后，点**右上角头像** → 菜单里点 **GitHub**。
-
-或者直接走这个直达链接：
+登录后点右上角**头像 → GitHub**，或者直接打开：
 
 ```
 https://zenodo.org/account/settings/github/
 ```
 
-页面会列出你 GitHub 账号下的所有仓库。找到 `yyx-4113/sleep-deprivation-scrna`：
+页面会列出你账号下的所有仓库。找到 `yyx-4113/sleep-deprivation-scrna`
+（列表长的话，用页面上的搜索框输入 sleep-deprivation）。
 
-- 列表长的话，用页面上的搜索框输入 `sleep-deprivation`
-- 这一行**最右边有个开关**，点一下，让它从灰色变成 **ON（开启）**（蓝色/绿色）
+把这一行**最右边的开关**点一下，让它从灰色变成**开启**（蓝色或绿色）。
 
-### 2-3 等它归档（通常几分钟）
+**3. 等它归档**
 
-因为 **Release v1.0.0 已经建好了**，Zenodo 收到信号后会立刻开始归档。
+因为发布页已经建好了，Zenodo 收到信号后会立刻开始归档，通常几分钟完成。
 
-想手动催一下也行：回到
-<https://github.com/yyx-4113/sleep-deprivation-scrna/releases/tag/v1.0.0>
-→ 右上角 **Edit（编辑）** → 什么都不改，直接拉到最下面点 **Update release（更新发布）**。
+想手动催一下也可以：回到发布页 → 右上角「编辑」→ 什么都不改 →
+拉到最下面点「更新发布」。
 
-### 2-4 复制 DOI
+**4. 复制编号**
 
-几分钟后刷新 <https://zenodo.org/account/settings/github/>，找到这条记录点进去，
-详情页右侧（或中部的 DOI 区块）会看到：
+几分钟后刷新 `https://zenodo.org/account/settings/github/`，
+点进这条记录，在详情页右侧（或中部的编号区块）会看到一串号码：
 
 ```
-DOI 10.5281/zenodo.XXXXXXX
+10.5281/zenodo.XXXXXXX
 ```
 
-**复制这串号码发给我。**
+**把这一串发给我。**
 
-### 2-5 一个容易踩的坑
+### 一个容易踩的坑
 
-详情页上如果有个开关叫 **"Cite all versions?"（引用所有版本？）**，**保持它是关闭状态**。
-打开的话显示的是"跨版本 Concept DOI（概念 DOI）"，会随版本变动；
-我们要的是锁定 `v1.0.0` 的 **Version DOI（版本 DOI）**，永久不变。
+详情页上如果有个开关叫「引用所有版本」，**一定要保持关闭**。
+打开的话，显示的编号会随版本变动；我们要的是**锁定 v1.0.0 这个版本的编号**，永久不变。
 
-### 出问题了？
+### 出问题了怎么办
 
-- **列表里找不到这个仓库** → 点页面上的 **sync now（立即同步）** 或刷新按钮；确认仓库是 Public（公开）。
-- **一直没出现 DOI** → 确认 Release 已发布。打开
-  <https://github.com/yyx-4113/sleep-deprivation-scrna/releases> 应能看到 v1.0.0，
-  且标签不是 **Draft（草稿）**。
+| 现象 | 原因与处理 |
+|---|---|
+| 列表里找不到这个仓库 | 点页面上的「立即同步」或刷新按钮；确认仓库是公开的 |
+| 一直不出编号 | 确认发布页已发布（不是草稿状态） |
+
+### Zenodo 打不开怎么办
+
+我这边测试，Zenodo 网站从本机连不上。如果你那边也打不开，
+改用国内的**科学数据银行**（`https://www.scidb.cn`），同样能拿到正式编号，不影响投稿；
+或者用 GigaDB（`https://gigadb.org`）。告诉我一声，我给你对应的上传步骤。
+
+### 界面英文对照表（仅此一处出现英文）
+
+| 中文意思 | 网页上的英文原词 |
+|---|---|
+| 登录 | Log in |
+| 用 GitHub 登录 | Log in with GitHub |
+| 授权 | Authorize zenodo |
+| 立即同步 | sync now |
+| 草稿 | Draft |
+| 引用所有版本 | Cite all versions? |
+| 编辑 | Edit |
+| 更新发布 | Update release |
 
 ---
 
-# 第 3 步：把默认分支从 master 改成 main（建议）
+# 第三步：把默认分支从 master 改成 main（建议，约 1 分钟）
 
-### 3-1 打开分支设置
+### 为什么要改
+
+不改的话，审稿人点开仓库，第一眼看到的是 2026 年 5 月的旧项目，
+而不是这次投稿的复现材料。
+
+### 操作
+
+**1. 打开分支设置页**
 
 ```
 https://github.com/yyx-4113/sleep-deprivation-scrna/settings/branches
 ```
 
-### 3-2 切换
+**2. 切换默认分支**
 
-找到 **Default branch（默认分支）** 这一块。右侧有一个**双向箭头图标 ⇄**
-（鼠标悬停会显示 "Switch default branch"，即切换默认分支）。
+找到「默认分支」这一块，点右侧的**双向箭头图标**（鼠标悬停会提示可切换）。
+在弹出的下拉框里选 **main**，然后点「更新」。
 
-点它 → 在下拉框里选 **main** → 点 **Update（更新）**。
+**3. 确认**
 
-### 3-3 确认
+弹出确认框，点那条「我已知悉，更新默认分支」。
 
-弹出确认框，勾选/点 **I understand, update the default branch（我已知悉，更新默认分支）**。
+**4. 怎样算成功**
 
-### 3-4 怎么判断成功了
+打开仓库主页，左上角分支下拉框显示的是 **main**（而不是 master），
+文件列表里能看到 `CITATION.cff`、`LICENSE`、`README.md`、`scripts/`、`results/`。
 
-打开 <https://github.com/yyx-4113/sleep-deprivation-scrna>，
-页面左上方分支下拉框显示的应该是 **main**（而不是 master），
-文件列表里能看到 `CITATION.cff`、`LICENSE`、`README.md`、`scripts/`、`results/` 这些。
+> 放心：旧的 master 分支**不会被删除**，在分支下拉框里随时能切回去看，
+> 2026 年 5 月的旧内容完好无损。
 
-> 不用担心的：旧的 `master` 分支**没有被删除**，
-> 在分支下拉框里仍可切换查看，2026-05 的旧内容完好无损。
+### 界面英文对照表（仅此一处出现英文）
+
+| 中文意思 | 网页上的英文原词 |
+|---|---|
+| 默认分支 | Default branch |
+| 双向箭头（切换按钮） | ⇄ 图标 |
+| 更新 | Update |
+| 我已知悉，更新默认分支 | I understand, update the default branch |
 
 ---
 
-# 改完怎么验收？（不用你自己判断）
+# 改完后怎样验收（不用你自己判断）
 
-你在网页改完后跟我说一声，我会跑这个脚本：
+在网页上改完跟我说一声，我跑一下这个脚本：
 
 ```bash
 python scripts/check_repo_status.py
 ```
 
-它通过 GitHub API（本机可达）逐项核对，输出**全中文**。例如刚刚跑出来的实况：
+它通过接口逐项核对，输出**全中文**。刚刚跑出来的实况是：
 
 ```
 ==============================================================
 仓库状态核对：yyx-4113/sleep-deprivation-scrna
 ==============================================================
 [未通过] 仓库描述
-        当前：Single-cell transcriptomic analysis of sleep deprivation reveals Pomc as a central regulatory hub
 [未通过] 默认分支 = master
 [通过] 是否私有 = False
 [通过] 现有分支 = ['main', 'master']
@@ -198,50 +238,45 @@ python scripts/check_repo_status.py
   - 第3步 默认分支为 main
 ```
 
-全部变成「通过」就说明这一轮齐了。
+全部变成「通过」，这一轮就齐了。
 
 ---
 
-# 拿到 DOI 之后，交给我
+# 拿到编号之后，交给我
 
 把 `10.5281/zenodo.XXXXXXX` 发我，我一次性做完：
 
-1. 回填 `manuscript_commentary.md` 里的 `[DOI to be inserted]`（待填入 DOI）
-2. 回填 `author_verification_statement.md`（作者核验声明）里的同一处占位
-3. 重建 `manuscript_commentary.docx` 等全部 docx
+1. 回填稿件正文里的「待填入编号」占位
+2. 回填作者核验声明里的同一处占位
+3. 重建全部 Word 文档
 4. 同步到仓库
 
 ---
 
-# 备选方案：Zenodo 打不开时
+# 备选方案：Zenodo 打不开时改用科学数据银行
 
-用国内的 **Science Data Bank（科学数据银行）**，同样 mint 正式 DOI：
-
-1. 打开 <https://www.scidb.cn> → 注册/登录
-2. 新建数据集 → 填写标题、作者（Yang Yongxin）、摘要
-3. 上传文件：先在浏览器打开下面这个链接下载打包好的源码（浏览器可访问 GitHub）
+1. 打开 `https://www.scidb.cn` → 注册并登录
+2. 新建数据集 → 填标题、作者（Yang Yongxin）、摘要
+3. 上传文件：先在浏览器打开下面链接，下载打包好的源码（浏览器能打开 GitHub）
 
    ```
    https://github.com/yyx-4113/sleep-deprivation-scrna/archive/refs/tags/v1.0.0.tar.gz
    ```
 
-   或者 zip 版：
+   或者压缩包版本：
 
    ```
    https://github.com/yyx-4113/sleep-deprivation-scrna/archive/refs/tags/v1.0.0.zip
    ```
 
-4. 提交 → 审核通过后得到 DOI，发我即可
-
-GigaDB（<https://gigadb.org>）也是同样流程，国际期刊认可度也高。
+4. 提交 → 审核通过后拿到编号，发我即可
 
 ---
 
 # 附：本机环境备忘（供以后复用）
 
-- `https://github.com`(443) 与 `https://zenodo.org` 从本机**均不可达**；`api.github.com` 通；**SSH 22 可达** → git 一律走 SSH
-- `gh` CLI 已装但未登录；本次推送与建 Release 都没依赖 gh 登录
-- SSH 密钥：`~/.ssh/id_ed25519`
-- Release 是用 GitHub Actions 自动建的（无 PAT 方案），见仓库 `.github/workflows/release.yml`
-- 已验证做不到：Actions 的 token 改不了仓库 description / 默认分支（加 `administration: write` 也失败）
-- `api.github.com` 偶发 504，核对脚本已内置 3 次重试
+- 本机访问 `github.com` 与 `zenodo.org` 都不通；只有接口地址 `api.github.com` 可达；SSH 端口可达，所以推送一律走 SSH
+- 命令行工具 gh 已安装但未登录；这次推送和建发布页都没依赖它登录
+- 发布页是用自动化流程建的，见仓库里的 `.github/workflows/release.yml`
+- 已验证做不到：自动化流程改不了仓库描述和默认分支，这两项只能本人到设置页改
+- 接口地址会偶发超时，核对脚本已内置三次重试
