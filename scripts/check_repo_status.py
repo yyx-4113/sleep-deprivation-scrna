@@ -8,10 +8,13 @@
 """
 
 import json
+import os
 import ssl
 import sys
 import time
 import urllib.request
+
+TOKEN = os.environ.get("GH_TOKEN")
 
 REPO = "yyx-4113/sleep-deprivation-scrna"
 API = f"https://api.github.com/repos/{REPO}"
@@ -31,7 +34,10 @@ def get(url, retries=3):
     last = None
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "repo-status-check"})
+            headers = {"User-Agent": "repo-status-check"}
+            if TOKEN:
+                headers["Authorization"] = f"Bearer {TOKEN}"
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, context=CTX, timeout=30) as r:
                 return json.load(r)
         except Exception as e:  # noqa: BLE001
@@ -89,13 +95,15 @@ def main():
     results.append(("main 与 master 并存（旧内容未删）", has_both))
     print(f"[{mark(has_both)}] 现有分支 = {branches}")
 
-    # 5. Release
+    # 5. Release（用 release 列表而非 /latest，因为 /latest 会跳过 prerelease）
     try:
-        rel = get(API + "/releases/latest")
-        tag = rel.get("tag_name")
-        good = tag == "v1.0.0" and not rel.get("draft")
+        rels = get(API + "/releases")
+        rel = next((r for r in rels if r.get("tag_name") == "v1.0.0"), None)
+        if rel is None:
+            raise KeyError("v1.0.0 不在 release 列表中")
+        good = not rel.get("draft")
         results.append(("Release v1.0.0 已发布", good))
-        print(f"[{mark(good)}] 最新 Release = {tag}（草稿={rel.get('draft')}）")
+        print(f"[{mark(good)}] Release v1.0.0（草稿={rel.get('draft')}）")
         print(f"        {rel.get('html_url')}")
     except Exception:  # noqa: BLE001
         results.append(("Release v1.0.0 已发布", False))
