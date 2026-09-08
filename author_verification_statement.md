@@ -30,7 +30,7 @@ The classifier analysis unit was made explicit: it pools all three brain regions
 Word counts were recomputed directly from the manuscript source (abstract ≈ 250 words; main text ≈ 5,200 words, Introduction–Limitations, excluding references, tables, Box 1 and figure captions) and the header was corrected to match.
 
 ## Repository and persistent identifier
-The analysis pipeline, all CSVs, the cached GEO JSON, the Table 1 build script, the figure-generation scripts, the reference-audit table and this statement are assembled as a version-controlled bundle (MIT licence) and will be made public at https://github.com/yongxinyang/sleep-deprivation-scrna with a persistent DOI (Zenodo or GigaDB/Science Data Bank) prior to acceptance. The identical materials are provided as Supplementary File S1.
+The analysis pipeline, all CSVs, the cached GEO JSON, the Table 1 build script, the figure-generation scripts, the reference-audit table and this statement are assembled as a version-controlled bundle (MIT licence) and will be made public at https://github.com/yyx-4113/sleep-deprivation-scrna with a persistent DOI (Zenodo or GigaDB/Science Data Bank) prior to acceptance. The identical materials are provided as Supplementary File S1.
 
 **Signed:** Yongxin Yang
 **Date:** 8 September 2026
