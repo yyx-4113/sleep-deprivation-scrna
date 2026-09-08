@@ -1,0 +1,27 @@
+name: Align repository metadata with the data commentary
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update description
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api -X PATCH "repos/$GITHUB_REPOSITORY" \
+            -f description="Reproducibility bundle for a data commentary on pseudoreplication, data leakage and inference limits in single-cell transcriptomics of sleep deprivation (GEO-driven inventory, code, adjudication records)."
+
+      - name: Set default branch to main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api -X PATCH "repos/$GITHUB_REPOSITORY" -f default_branch=main || echo "default-branch change not permitted with the workflow token"
