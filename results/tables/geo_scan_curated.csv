@@ -1,0 +1,11 @@
+accession,year,tissue_assay,contrast,libraries_per_condition,replicated,journal,pmid
+GSE137665,2022,"Hypothalamus, brainstem, cortex / scRNA",NS; 12-h SD; 24-h RS,1 (each pooling 3 mice),No,Commun Biol,35986171
+GSE214337,2022,Cerebral cortex / snRNA,SD; ad-lib sleep; SIK3 variants,1,No,Nature,36477539
+GSE213496,2023,Not specified / scRNA,5-day chronic SD (excluded: fails acute criterion),1,Excluded (chronic),Cell,38016470
+GSE218624,2026,Preoptic hypothalamus / scRNA,SD 6 h; rebound sleep 2 h,1,No,Nat Neurosci,42321470
+GSE280145,2024,Bone marrow / scRNA,Control; SD,1,No,unpublished,
+GSE289089,2025,Small intestinal crypt / scRNA,SD day 0; SD day 2,2,Yes,unpublished,
+GSE211088,2023,Frontal cortex / snRNA + bulk,SD 5 h; home-cage,3,Yes,iScience,39280614
+GSE245537,2023,Nucleus reuniens / snRNA,SD; no SD,3,Yes,Science,40536979
+GSE256140,2025,Frontal cortex / snRNA,SD; control sleep,4,Yes,eLife,39950545
+GSE243489,2024,Preoptic hypothalamus / snRNA,Normal sleep; recovery sleep,4-5 per sex (19 total),Yes,Cell Rep,38703367

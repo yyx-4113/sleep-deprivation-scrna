@@ -1,0 +1,16 @@
+{
+  "n_eligible_datasets": 45,
+  "replication_class_counts": {
+    "unclear": 21,
+    "likely_unreplicated": 19,
+    "replicated": 4,
+    "pooled_no_replication": 1
+  },
+  "n_published": 31,
+  "generated": "2026-09-08 11:17:02",
+  "queries": [
+    "(sleep[All Fields]) AND (\"single cell\"[All Fields] OR \"single-cell\"[All Fields] OR \"single nucleus\"[All Fields] OR \"single-nucleus\"[All Fields] OR scRNA-seq[All Fields] OR snRNA-seq[All Fields]) AND (mouse[Organism] OR Mus musculus[Organism]) AND GSE[Entry Type]",
+    "(\"sleep deprivation\"[All Fields]) AND (transcriptome[All Fields]) AND GSE[Entry Type]",
+    "(sleep[All Fields]) AND (RNA-seq[All Fields]) AND (mouse[Organism]) AND GSE[Entry Type]"
+  ]
+}

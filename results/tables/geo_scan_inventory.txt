@@ -1,0 +1,12 @@
+# Compact inventory: sleep-related mouse single-cell series in GEO
+# n = 9 (from scripts/geo_scan3.py)
+
+GSE211088 | 2023 | n=16 | PMID=39280614 | RNA-Seq and snRNA-seq analysis of Sleep deprivation in Wildtype Mice
+GSE213496 | 2023 | n=3 | PMID=38016470 | Prolonged sleep deprivation induces cytokine storm-like syndrome in mammals [scRNA-Seq]
+GSE231764 | 2023 | n=12 | PMID=37471539 | RNA-seq of heart healthy and heart diseased SCGs and pineal glands
+GSE231765 | 2023 | n=2 | PMID=NA | single-nucleus RNA-seq of healthy (sham) and heart diseased (TAC) SCGs
+GSE231766 | 2023 | n=4 | PMID=37471539 | single-cell RNA-seq of healthy (ctrl) and heart diseased (TAC) SCGs
+GSE233223 | 2023 | n=1 | PMID=37471539 | spatial RNA-seq of SCG
+GSE243489 | 2024 | n=19 | PMID=38703367 | Single-nucleus RNA-seq identifies one galanin neuronal subtype in mouse preoptic hypothalamus a
+GSE289089 | 2025 | n=4 | PMID=NA | Small intestinal crypt cell subsets and gene expression in sleep-deprived mice
+GSE218624 | 2026 | n=2 | PMID=42321470 | Single cell RNA-sequencing of the preoptic area of hypothalamus from sleep deprivation and rebo

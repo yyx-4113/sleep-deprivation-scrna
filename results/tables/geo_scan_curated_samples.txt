@@ -1,0 +1,197 @@
+========================================================================
+GSE137665 | 2022/08/24 | n=9 | PMID=35986171
+TITLE: Single-cell transcriptomics and analysis for new molecular regulators of sleep
+SUMMARY: The molecular mechanisms governing sleep are largely unknown. Here, we used a combination of single-cell RNA sequencing to interrogate the molecular and functional underpinnings of sleep. Different cell types in three important brain regions for sleep (brainstem, cortex and hypothalamus) had a similar transcriptional response to sleep need, with a large proportion of cells changing during recovery sleep. In contrast, sleep deprivation regulated expression of different functions in each brain region. This includes antigen processing, synaptic transmission and cellular metabolism in brainstem, cortex and hypothalamus, respectively. Increased sleep need enhances expression of the transcription 
+SAMPLES:
+   - Cortex Sleep Deprived
+   - Hypothalamus Sleep Deprived
+   - Brainstem Sleep Deprived
+   - Cortex Recovery Sleep
+   - Hypothalamus Recovery Sleep
+   - Brainstem Recovery Sleep
+   - Hypothalamus Normal Sleep
+   - Cortex Normal Sleep
+   - Brainstem Normal Sleep
+========================================================================
+GSE211088 | 2023/04/17 | n=16 | PMID=39280614
+TITLE: RNA-Seq and snRNA-seq analysis of Sleep deprivation in Wildtype Mice
+SUMMARY: This dataset constitutes the first snRNA-Seq study of gene expression following sleep deprivation in wildtype mice with paralell bulk-RNA-seq data. In addition it contains RNA-seq analysis of the effect of recovery sleep following sleep deprivation
+SAMPLES:
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 2 [RNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 5 [RNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 3 [snRNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 4 [RNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 1 [RNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 2 [RNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 3 [RNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 5 [RNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 3 [snRNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 3 [RNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 2 [snRNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 2 [snRNA-Seq]
+   - Wildtype homecage control harvested at ZT hour 5, replicate 1 [snRNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 1 [snRNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 4 [RNA-Seq]
+   - Wildtype harvested following 5 hours of sleep deprivation, replicate 1 [RNA-Seq]
+========================================================================
+GSE213496 | 2023/11/27 | n=3 | PMID=38016470
+TITLE: Prolonged sleep deprivation induces cytokine storm-like syndrome in mammals [scRNA-Seq]
+SUMMARY: Sleep is deeply involved in neuroimmune regulation, while the mechanism is yet to be elucidated. Experimental manipulation of sleep duration provides a reliable measure for evaluating how sleep regulates innate immunity. Here we report a modified sleep deprivation paradigm (SD) that can constantly awaken the mice with more than 95% efficiency, and investigate the effects of prolonged sleep deprivation on mice's immune systems.
+SAMPLES:
+   - scRNA,SD24h
+   - scRNA,SD48h
+   - scRNA,Con
+========================================================================
+GSE218624 | 2026/04/23 | n=2 | PMID=42321470
+TITLE: Single cell RNA-sequencing of the preoptic area of hypothalamus from sleep deprivation and rebound sleep mice
+SUMMARY: Using single-cell transcriptomics to search for hypothalamic neurons representing and controllling sleep pressure, we identified a group of neurons expressing Gpr139  in the preoptic area (POA) selectively activated during rebound sleep (RS) after sleep deprivation (SD).
+SAMPLES:
+   - RS2h
+   - SD6h
+========================================================================
+GSE243489 | 2024/04/01 | n=19 | PMID=38703367
+TITLE: Single-nucleus RNA-seq identifies one galanin neuronal subtype in mouse preoptic hypothalamus activated during recovery sleep after sleep deprivation
+SUMMARY: The preoptic area of hypothalamus plays an important role in sleep homeostasis. We used snRNA-seq to identify neurons involved in homeostatic sleep response.
+SAMPLES:
+   - F42, recovery sleep, female, rep2
+   - M5, recovery sleep, male, rep4
+   - F38, normal sleep, female, rep2
+   - M8, recovery sleep, male, rep1
+   - M17, normal sleep, male, rep4
+   - F37, normal sleep, female, rep3
+   - M7, recovery sleep, male, rep2
+   - F29, recovery sleep, female, rep5
+   - F39, normal sleep, female, rep1
+   - M33, normal sleep, male, rep2
+   - M18, normal sleep, male, rep3
+   - M1, normal sleep, male, rep5
+   - F40, recovery sleep, female, rep3
+   - M35, recovery sleep, male, rep5
+   - M34, normal sleep, male, rep1
+   - F10, normal sleep, female, rep4
+   - F32, recovery sleep, female, rep4
+   - F43, recovery sleep, female, rep1
+   - M6, recovery sleep, male, rep3
+========================================================================
+GSE289089 | 2025/12/30 | n=4 | PMID=NA
+TITLE: Small intestinal crypt cell subsets and gene expression in sleep-deprived mice
+SUMMARY: The level of 5-HT in the intestine of sleep-deprived mice is increased, which induces oxidative stress of intestinal stem cells by acting on HTR4 receptor. Single-cell RNA sequencing was used to analyze the changes in intestinal cell subsets and HTR4 expression after sleep deprivation
+SAMPLES:
+   - SD 0D-2
+   - SD-2D-2
+   - SD 0D-1
+   - SD-2D-1
+========================================================================
+GSE221239 | 2023/11/29 | n=7 | PMID=38263460
+TITLE: Single-cell transcriptomics reveals glial cells integrate homeostatic and circadian processes to drive sleep-wake cycle
+SUMMARY: The sleep-wake cycle is determined by a circadian and a sleep homeostatic process. However, the molecular impact of these two processes and their interaction on different cell populations in the brain remain unknown. To fill this gap, we have profiled the single-cell transcriptome of adult fruit fly brains across the sleep-wake cycle and different circadian times. We show cell type-specific transcriptomic changes between sleep/wakefulness states, different levels of sleep drive, and varying circadian times, with glial cells displaying the largest variations. Furthermore, the cell types whose transcriptomic dynamics correlate with the sleep homeostat or circadian clock are largely non-overlap
+SAMPLES:
+   - DGRP_Mix_Sleep_Wakefulness_Run5, replicate 1, scRNA-seq
+   - DGRP_Mix_Sleep_Wakefulness_Run2, replicate 1, scRNA-seq
+   - DGRP_Mix_Sleep_Wakefulness_Run1, replicate 1, scRNA-seq
+   - DGRP_Mix_Sleep_Wakefulness_Run7, replicate 1, scRNA-seq
+   - DGRP_Mix_Sleep_Wakefulness_Run4, replicate 1, scRNA-seq
+   - DGRP_Mix_Sleep_Wakefulness_Run6, replicate 1, scRNA-seq
+   - DGRP_Mix_Sleep_Wakefulness_Run3, replicate 1, scRNA-seq
+========================================================================
+GSE256140 | 2025/02/10 | n=8 | PMID=39950545
+TITLE: Sleep need driven oscillation of glutamatergic synaptic phenotype
+SUMMARY: The response to sleep loss, induced by experimental sleep deprivation (SD), provides insight into the function of sleep. Earlier observations have shown an overall increase in synaptic strength and number of cortical, glutamate, AMPA receptor (AMPAR) synapses in response to SD that is recovered by sleep. However, other aspects of glutamatergic transmission, including NMDA receptor mediated neurotransmission and related upstream synaptic regulators of the glutamate synapse function, have not been well examined. Following SD, we report increased AMPA/NMDA ratio in whole cell recordings of frontal cortical (FC) pyramidal neurons of layers 2-3. Additionally, the ratio of silent/active synapse is
+SAMPLES:
+   - SD, replicate 2, snRNA-seq
+   - CS, replicate 3, snRNA-seq
+   - SD, replicate 1, snRNA-seq
+   - CS, replicate 2, snRNA-seq
+   - SD, replicate 3, snRNA-seq
+   - SD, replicate 4, snRNA-seq
+   - CS, replicate 4, snRNA-seq
+   - CS, replicate 1, snRNA-seq
+========================================================================
+GSE280145 | 2024/12/01 | n=2 | PMID=NA
+TITLE: LK immunophenotype cells after sleep deprivation.
+SUMMARY: To investigate the effects of sleep deprivation on hematopoietic stem cells in the bone marrow and the changes in the bone marrow microenvironment, we constructed a single-cell atlas.
+SAMPLES:
+   - CT, scRNA
+   - SD, scRNA
+========================================================================
+GSE214337 | 2022/12/07 | n=4 | PMID=36477539
+TITLE: Gene expression profile at single cell level of the cerebral cortex at different sleep need
+SUMMARY: Gene expression profile varies along with sleep/wake behavior. We used single nucleus RNA sequencing (snRNA-seq) to analyze differentially expressed genes depending on sleep need.
+SAMPLES:
+   - Sleep-deprivation
+   - AAV-SIK3-Ex13del
+   - Ad-lib-sleep
+   - AAV-SIK3-WT
+========================================================================
+GSE245537 | 2023/10/21 | n=6 | PMID=40536979
+TITLE: Persistence of homeostatic sleep drive is encoded by plasticity of a thalamic reuniens circuit
+SUMMARY: Purpose: snRNA-Seq was performed to characterize molecular differences that occur with sleep deprivation in the nucleus reuniens of the thalamus
+SAMPLES:
+   - FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, with sleep deprivation [MW12]
+   - FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, without sleep deprivation [MW9]
+   - FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, without sleep deprivation [MW1]
+   - FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, without sleep deprivation [MW10]
+   - FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, with sleep deprivation [MW2]
+   - FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, with sleep deprivation [MW11]
+========================================================================
+GSE312840 | 2026/05/01 | n=2 | PMID=42174655
+TITLE: Dual Orexin Receptor Antagonism with Lemborexant Enhances Microglial Clearance of β-Amyloid in Mice
+SUMMARY: Background: Sleep regulates brain amyloid-beta (Aβ) levels, and disruption of sleep is a risk factor for Alzheimer’s Disease (AD) and can exacerbate amyloid pathology. The orexin/hypocretin system, a key sleep-wake regulator, represents an emerging therapeutic target in AD, though the effects of FDA-approved dual orexin receptor antagonist drugs (DORAs) on amyloid pathology are unknown. Here, we assessed and compared the effects of lemborexant (LEM), an FDA-approved DORA, and doxepin, an anti-histaminergic sleep drug, on amyloid pathology and glial responses in the APP/PS1 mouse model of AD. Methods: APP/PS1 mice were treated with lemborexant (10 or 30mg/kg daily) or doxepin (35mg/kg daily) 
+SAMPLES:
+   - VEH
+   - LEM
+========================================================================
+GSE301350 | 2025/08/05 | n=2 | PMID=NA
+TITLE: Cell-Specific Transcriptomic and Mito-Nuclear Imbalance in Lungs Under Intermittent Hypoxia in Adult Male Mice. 
+SUMMARY: Obstructive sleep apnea and its characteristic intermittent hypoxia (IH) are widely recognized as significant contributors to various pulmonary diseases, including asthma, pulmonary arterial hypertension, fibrosis, and chronic obstructive pulmonary disease. While single-cell RNA sequencing (scRNA-seq) has provided valuable insights into cell-type-specific responses to IH, previous studies have primarily focused on post-hypoxic recovery states, leaving immediate molecular responses during active IH exposure unexplored. To address this critical knowledge gap, we investigated real-time transcriptional responses to IH at single-cell resolution in lung tissue using male mice (n=3/group) exposed t
+SAMPLES:
+   - NX_mm10_vM23
+   - CIH_mm10_vM23
+========================================================================
+GSE264175 | 2025/05/27 | n=1 | PMID=40739350
+TITLE: Respiratory viral infection promotes the awakening and outgrowth of dormant metastatic breast cancer cells in lungs
+SUMMARY: Breast cancer is the second most common cancer globally. Most deaths from breast cancer are due to metastatic disease which often follows long periods of clinical dormancy. Understanding the mechanisms that disrupt the quiescence of dormant disseminated cancer cells (DCC) is crucial for addressing metastatic progression. Infection with respiratory viruses (e.g. influenza or SARS-CoV-2) is common and triggers an inflammatory response locally and systemically. Here we show that influenza virus infection leads to loss of the pro-dormancy mesenchymal phenotype in breast DCC in the lung, causing DCC proliferation within days of infection, and a greater than 100-fold expansion of carcinoma cells i
+SAMPLES:
+   - Flu_metastasis
+========================================================================
+GSE283586 | 2025/12/05 | n=1 | PMID=NA
+TITLE: Heat Shock Factor 1 Governs Sleep-Wake Cycles Across Species [snRNA-Seq]
+SUMMARY: Sleep represents a fundamental biological necessity, yet the molecular mechanisms controlling this essential process remain largely unknown. Sleep disruption marks numerous pathological states, suggesting undiscovered molecular regulators govern this vital function. While studies have mapped gene expression during sleep, the master regulators that translate sleep pressure into sleep behavior have remained elusive. We demonstrate that Heat Shock Factor 1 (HSF1), previously characterized solely as a stress response transcription factor, serves as a critical molecular switch enabling sleep. HSF1's nuclear levels oscillate with sleep-wake cycles in mouse cortex and increase markedly during sleep
+SAMPLES:
+   - Brain, snRNAseq
+========================================================================
+GSE160581 | 2021/05/01 | n=4 | PMID=NA
+TITLE: Hyperexcitable arousal circuits cause sleep instability during aging
+SUMMARY: 10X single nucleus RNAseq of hyprcretin neurons from lateral hypothalamus in young and aged mice
+SAMPLES:
+   - OM2
+   - YM2
+   - OF2
+   - YF2
+========================================================================
+GSE188646 | 2022/05/20 | n=8 | PMID=36285248
+TITLE: Single cell analysis of the aging hypothalamus
+SUMMARY: Alterations in metabolism, sleep patterns, body composition, and hormone status are all key features of aging. The hypothalamus is a well-conserved brain region that controls these homeostatic and survival-related behaviors. Despite the importance of this brain region in healthy aging, little is known about the intrinsic features of hypothalamic aging. Here, we utilize single nuclei RNA-sequencing to assess the transcriptomes of 40,064 hypothalamic nuclei from young and aged female mice. We identify cell type-specific signatures of aging in neurons, astrocytes, and microglia, as well as among the diverse collection of neuronal subtypes in this region. We uncover key changes in cell types cri
+SAMPLES:
+   - Young_2
+   - Young_1
+   - Aged_3
+   - Aged_2
+   - Young_4
+   - Young_3
+   - Aged_4
+   - Aged_1
+========================================================================
+GSE200642 | 2022/08/29 | n=9 | PMID=36180478
+TITLE: Integrative single cell and spatial transcriptomic analysis reveal reciprocal microglia-plasma cell crosstalk in the mouse brain during chronic Trypanosoma brucei infection
+SUMMARY: Human African trypanosomiasis, or sleeping sickness, is caused by the protozoan parasite Trypanosoma brucei and induces profound reactivity of glial cells and neuroinflammation when the parasites colonise the central nervous system. However, the transcriptional and functional responses of the brain to chronic T. brucei infection remain poorly understood. By integrating single cell and spatial transcriptomics of the mouse brain, we identified that glial responses triggered by infection are readily detected in the proximity to the circumventricular organs, including the lateral and 3rd ventricle. This coincides with the spatial localisation of both slender and stumpy forms of T. brucei. Furthe
+SAMPLES:
+   - 25dpi_Spatial
+   - 45dpi_Rep1_scRNA
+   - 45dpi_Rep2_scRNA
+   - 25dpi_Rep1_scRNA
+   - 45dpi_Spatial
+   - Naïve_Rep1_scRNA
+   - Naïve_Spatial
+   - 25dpi_Rep2_scRNA
+   - Naïve_Rep2_scRNA

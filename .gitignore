@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large intermediates (regenerable)
+*.h5ad
+*.h5
+*.loom
+*.rds
+
+# Local scratch
+_scratch/
+tmp/

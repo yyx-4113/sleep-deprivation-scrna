@@ -1,0 +1,108 @@
+accession,release_date,pmid,sample_title
+GSE137665,2022/08/24,35986171,Cortex Sleep Deprived
+GSE137665,2022/08/24,35986171,Hypothalamus Sleep Deprived
+GSE137665,2022/08/24,35986171,Brainstem Sleep Deprived
+GSE137665,2022/08/24,35986171,Cortex Recovery Sleep
+GSE137665,2022/08/24,35986171,Hypothalamus Recovery Sleep
+GSE137665,2022/08/24,35986171,Brainstem Recovery Sleep
+GSE137665,2022/08/24,35986171,Hypothalamus Normal Sleep
+GSE137665,2022/08/24,35986171,Cortex Normal Sleep
+GSE137665,2022/08/24,35986171,Brainstem Normal Sleep
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 2 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 5 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 3 [snRNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 4 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 1 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 2 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 3 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 5 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 3 [snRNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 3 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 2 [snRNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 2 [snRNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype homecage control harvested at ZT hour 5, replicate 1 [snRNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 1 [snRNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 4 [RNA-Seq]"
+GSE211088,2023/04/17,39280614,"Wildtype harvested following 5 hours of sleep deprivation, replicate 1 [RNA-Seq]"
+GSE213496,2023/11/27,38016470,"scRNA,SD24h"
+GSE213496,2023/11/27,38016470,"scRNA,SD48h"
+GSE213496,2023/11/27,38016470,"scRNA,Con"
+GSE218624,2026/04/23,42321470,RS2h
+GSE218624,2026/04/23,42321470,SD6h
+GSE243489,2024/04/01,38703367,"F42, recovery sleep, female, rep2"
+GSE243489,2024/04/01,38703367,"M5, recovery sleep, male, rep4"
+GSE243489,2024/04/01,38703367,"F38, normal sleep, female, rep2"
+GSE243489,2024/04/01,38703367,"M8, recovery sleep, male, rep1"
+GSE243489,2024/04/01,38703367,"M17, normal sleep, male, rep4"
+GSE243489,2024/04/01,38703367,"F37, normal sleep, female, rep3"
+GSE243489,2024/04/01,38703367,"M7, recovery sleep, male, rep2"
+GSE243489,2024/04/01,38703367,"F29, recovery sleep, female, rep5"
+GSE243489,2024/04/01,38703367,"F39, normal sleep, female, rep1"
+GSE243489,2024/04/01,38703367,"M33, normal sleep, male, rep2"
+GSE243489,2024/04/01,38703367,"M18, normal sleep, male, rep3"
+GSE243489,2024/04/01,38703367,"M1, normal sleep, male, rep5"
+GSE243489,2024/04/01,38703367,"F40, recovery sleep, female, rep3"
+GSE243489,2024/04/01,38703367,"M35, recovery sleep, male, rep5"
+GSE243489,2024/04/01,38703367,"M34, normal sleep, male, rep1"
+GSE243489,2024/04/01,38703367,"F10, normal sleep, female, rep4"
+GSE243489,2024/04/01,38703367,"F32, recovery sleep, female, rep4"
+GSE243489,2024/04/01,38703367,"F43, recovery sleep, female, rep1"
+GSE243489,2024/04/01,38703367,"M6, recovery sleep, male, rep3"
+GSE289089,2025/12/30,NA,SD 0D-2
+GSE289089,2025/12/30,NA,SD-2D-2
+GSE289089,2025/12/30,NA,SD 0D-1
+GSE289089,2025/12/30,NA,SD-2D-1
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run5, replicate 1, scRNA-seq"
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run2, replicate 1, scRNA-seq"
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run1, replicate 1, scRNA-seq"
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run7, replicate 1, scRNA-seq"
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run4, replicate 1, scRNA-seq"
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run6, replicate 1, scRNA-seq"
+GSE221239,2023/11/29,38263460,"DGRP_Mix_Sleep_Wakefulness_Run3, replicate 1, scRNA-seq"
+GSE256140,2025/02/10,39950545,"SD, replicate 2, snRNA-seq"
+GSE256140,2025/02/10,39950545,"CS, replicate 3, snRNA-seq"
+GSE256140,2025/02/10,39950545,"SD, replicate 1, snRNA-seq"
+GSE256140,2025/02/10,39950545,"CS, replicate 2, snRNA-seq"
+GSE256140,2025/02/10,39950545,"SD, replicate 3, snRNA-seq"
+GSE256140,2025/02/10,39950545,"SD, replicate 4, snRNA-seq"
+GSE256140,2025/02/10,39950545,"CS, replicate 4, snRNA-seq"
+GSE256140,2025/02/10,39950545,"CS, replicate 1, snRNA-seq"
+GSE280145,2024/12/01,NA,"CT, scRNA"
+GSE280145,2024/12/01,NA,"SD, scRNA"
+GSE214337,2022/12/07,36477539,Sleep-deprivation
+GSE214337,2022/12/07,36477539,AAV-SIK3-Ex13del
+GSE214337,2022/12/07,36477539,Ad-lib-sleep
+GSE214337,2022/12/07,36477539,AAV-SIK3-WT
+GSE245537,2023/10/21,40536979,"FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, with sleep deprivation [MW12]"
+GSE245537,2023/10/21,40536979,"FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, without sleep deprivation [MW9]"
+GSE245537,2023/10/21,40536979,"FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, without sleep deprivation [MW1]"
+GSE245537,2023/10/21,40536979,"FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, without sleep deprivation [MW10]"
+GSE245537,2023/10/21,40536979,"FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, with sleep deprivation [MW2]"
+GSE245537,2023/10/21,40536979,"FosTRAP2;Ai14, the nucleus reuniens of the thalamus, snRNA-Seq, with sleep deprivation [MW11]"
+GSE312840,2026/05/01,42174655,VEH
+GSE312840,2026/05/01,42174655,LEM
+GSE301350,2025/08/05,NA,NX_mm10_vM23
+GSE301350,2025/08/05,NA,CIH_mm10_vM23
+GSE264175,2025/05/27,40739350,Flu_metastasis
+GSE283586,2025/12/05,NA,"Brain, snRNAseq"
+GSE160581,2021/05/01,NA,OM2
+GSE160581,2021/05/01,NA,YM2
+GSE160581,2021/05/01,NA,OF2
+GSE160581,2021/05/01,NA,YF2
+GSE188646,2022/05/20,36285248,Young_2
+GSE188646,2022/05/20,36285248,Young_1
+GSE188646,2022/05/20,36285248,Aged_3
+GSE188646,2022/05/20,36285248,Aged_2
+GSE188646,2022/05/20,36285248,Young_4
+GSE188646,2022/05/20,36285248,Young_3
+GSE188646,2022/05/20,36285248,Aged_4
+GSE188646,2022/05/20,36285248,Aged_1
+GSE200642,2022/08/29,36180478,25dpi_Spatial
+GSE200642,2022/08/29,36180478,45dpi_Rep1_scRNA
+GSE200642,2022/08/29,36180478,45dpi_Rep2_scRNA
+GSE200642,2022/08/29,36180478,25dpi_Rep1_scRNA
+GSE200642,2022/08/29,36180478,45dpi_Spatial
+GSE200642,2022/08/29,36180478,Naïve_Rep1_scRNA
+GSE200642,2022/08/29,36180478,Naïve_Spatial
+GSE200642,2022/08/29,36180478,25dpi_Rep2_scRNA
+GSE200642,2022/08/29,36180478,Naïve_Rep2_scRNA

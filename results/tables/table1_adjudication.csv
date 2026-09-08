@@ -1,0 +1,11 @@
+accession,year_display,tissue_modality,contrast,libs_per_cond,repl_at_lib,ortho_val,venue,acute_included,note
+GSE137665,2022,"Hypothalamus, brainstem, cortex / scRNA",NS; 12-h SD; 24-h RS,1,No,Yes (proteomics),Commun Biol,TRUE,Worked example (9 pooled libraries; 3 regions x 3 conditions)
+GSE214337,2022,Cerebral cortex / scRNA,SD vs ad-lib sleep (incl. AAV-SIK3 genotype arms),1,No,"Yes (EEG, behaviour)",Nature,TRUE,"AAV-SIK3 genotype arms are a separate manipulation, not the SD-vs-control contrast"
+GSE218624,2026,Preoptic hypothalamus / scRNA,SD 6 h; RS 2 h (no normal-sleep control arm),1,No,Yes (fibre photometry),Nat Neurosci,TRUE,Only 2 libraries; no normal-sleep arm -> deprivation effect not estimable
+GSE280145,2024 (deposit),Lin-Kit+ haematopoietic progenitors (bone marrow) / scRNA,SD vs control,1,No,No,Unpublished (no linked PMID),TRUE,"No linked publication; bone marrow, not cortex"
+GSE211088,2023,Frontal cortex / snRNA-seq + bulk,5-h SD,3 (snRNA subset),Yes,Yes (bulk RNA-seq),iScience,TRUE,16 deposited samples mix bulk + snRNA; 3 libraries per condition is the snRNA subset
+GSE243489,2024,Preoptic hypothalamus / snRNA,NS; recovery sleep (per record),4-5 per sex,Yes,"Yes (ISH, behaviour)",Cell Rep,TRUE,19 libraries total; per-record contrast is normal vs recovery sleep
+GSE256140,2025,Frontal cortex / snRNA,SD vs control sleep (recovery arm not deposited),4,Yes,Yes (behaviour),eLife,TRUE,Deposited samples contain no recovery-sleep arm
+GSE245537,2025 (dep. 2023),Thalamus (nucleus reuniens) / snRNA,SD vs control (per record; study frames as recovery-sleep homeostasis),3,Yes,Yes (optogenetics),Science,TRUE,"GEO deposit 2023, publication 2025; table uses publication year"
+GSE289089,2025 (deposit),Small intestinal crypt / scRNA,Day 0 vs day 2 of deprivation,2,Yes,No,Unpublished (no linked PMID),TRUE,Peripheral tissue; sits at the 48-h acute boundary
+GSE213496,2023,Multi-organ (whole-body) / scRNA,Chronic SD (24 h / 48 h windows in record),1,No,Yes (cytokine panels),Cell,FALSE,FAILED acute (<=48 h) criterion; reported separately as chronic-restriction case

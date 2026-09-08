@@ -1,0 +1,46 @@
+accession,year,n_samples,title,auto_class,included,exclusion_reason
+GSE79108,2017,84,Identification of preoptic sleep-promoting neurons based on projection target,unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE145273,2020,3647,Integrated single-cell analysis reveals coupled molecular gradient and functional subnetworks in the thalamic ,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE147722,2020,2,"CRISPR-Cas9-engineered PIGV341E mouse model mirrors human phenotype, shows hippocampal synaptic dysfunctions a",likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE145435,2021,6,Short-term exposure to intermittent hypoxia leads to changes in gene expression seen in chronic pulmonary dise,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE160581,2021,4,Hyperexcitable arousal circuits cause sleep instability during aging,likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE179541,2021,4,Complement factor C1q mediates sleep spindle disruption and epileptic spikes after mild brain injury,likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE137665,2022,9,Single-cell transcriptomics and analysis for new molecular regulators of sleep,unclear,yes,INCLUDED
+GSE188646,2022,8,Single cell analysis of the aging hypothalamus,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE200642,2022,9,Integrative single cell and spatial transcriptomic analysis reveal reciprocal microglia-plasma cell crosstalk ,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE208355,2022,24,HypoMap – a unified single cell gene expression atlas of the murine hypothalamus,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE214337,2022,4,Gene expression profile at single cell level of the cerebral cortex at different sleep need,likely_unreplicated,yes,INCLUDED
+GSE202071,2023,2,The landscape of immune cells in the mouse HCC model with F1 and F3 subtype,likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE211088,2023,16,RNA-Seq and snRNA-seq analysis of Sleep deprivation in Wildtype Mice,replicated,yes,INCLUDED
+GSE213496,2023,3,Prolonged sleep deprivation induces cytokine storm-like syndrome in mammals [scRNA-Seq],chronic_excluded,no,Chronic (5-day) sleep deprivation; fails acute (<=48 h) criterion (b)
+GSE221239,2023,7,Single-cell transcriptomics reveals glial cells integrate homeostatic and circadian processes to drive sleep-w,replicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE222784,2023,2,Neutrophil metalloproteinase driven spleen architecture breakdown hampers plasma cell generation and infection,likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE226098,2023,4,Molecular Consequences of Peripheral Influenza A Infection on Cell Populations in the Murine Hypothalamus,likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE229436,2023,4,The murine meninges acquire lymphoid tissue properties and harbour autoreactive B cells during chronic Trypano,likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE231764,2023,12,RNA-seq of heart healthy and heart diseased SCGs and pineal glands,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE231765,2023,2,single-nucleus RNA-seq of healthy (sham) and heart diseased (TAC) SCGs,likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE231766,2023,4,single-cell RNA-seq of healthy (ctrl) and heart diseased (TAC) SCGs,likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE233223,2023,1,spatial RNA-seq of SCG,likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE245537,2023,6,Persistence of homeostatic sleep drive is encoded by plasticity of a thalamic reuniens circuit,unclear,yes,INCLUDED
+GSE232164,2024,12,RNAseq on PYMT cells  treated with TGFB2 and/or BMP4 in 3D matrigel,unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE241165,2024,1248,Characterizing the gene expression profiles of 4T1 and 4T1.2 cells at different stages of bone metastsis using,unclear,no,Not sleep- or circadian-related
+GSE243489,2024,19,Single-nucleus RNA-seq identifies one galanin neuronal subtype in mouse preoptic hypothalamus activated during,unclear,yes,INCLUDED
+GSE271816,2024,10,Single cell RNA sequence data from intrahepatic immune cells of CHB(chronic hepatitis B) mice,replicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE275089,2024,7,"Single cell RNAseq of murine tissues after, sham operation, myocaradial infarction (MI) or MI and sleep fragme",unclear,no,Eligible on title/summary but excluded at full-record screen: no sample-level metadata resolving libraries per condition
+GSE280081,2024,9,Protective role of aconitate decarboxylase 1 in neuroinflammation-induced dysfunctions of the paraventricular ,unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE280145,2024,2,LK immunophenotype cells after sleep deprivation.,likely_unreplicated,yes,INCLUDED
+GSE256140,2025,8,Sleep need driven oscillation of glutamatergic synaptic phenotype,replicated,yes,INCLUDED
+GSE264175,2025,1,Respiratory viral infection promotes the awakening and outgrowth of dormant metastatic breast cancer cells in ,likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE283582,2025,6,Heat Shock Factor 1 Governs Sleep-Wake Cycles Across Species [RNA-Seq],unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE283583,2025,18,Heat Shock Factor 1 Governs Sleep-Wake Cycles Across Species [CUT&RUN],unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE283586,2025,1,Heat Shock Factor 1 Governs Sleep-Wake Cycles Across Species [snRNA-Seq],likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE289089,2025,4,Small intestinal crypt cell subsets and gene expression in sleep-deprived mice,likely_unreplicated,yes,INCLUDED
+GSE297845,2025,18,The oncogenic potential of YAP requires Y357 phosphorylation in cholangiocytes but not in hepatocytes,unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE301350,2025,2,Cell-Specific Transcriptomic and Mito-Nuclear Imbalance in Lungs Under Intermittent Hypoxia in Adult Male Mice,likely_unreplicated,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE218624,2026,2,Single cell RNA-sequencing of the preoptic area of hypothalamus from sleep deprivation and rebound sleep mice,likely_unreplicated,yes,INCLUDED
+GSE284364,2026,8,Rest-phase light disrupts hippocampal clock function and impairs object recognition memory,unclear,no,Not single-cell / single-nucleus transcriptomics
+GSE300997,2026,127,Persistent cortical excitatory neuron dysregulation in adult Chd8 haploinsufficient mice,unclear,no,Not sleep- or circadian-related
+GSE301511,2026,5,Persistent cortical excitatory neuron dysregulation in adult Chd8 haploinsufficient mice [snRNA-Seq],pooled_no_replication,no,Not sleep- or circadian-related
+GSE312840,2026,2,Dual Orexin Receptor Antagonism with Lemborexant Enhances Microglial Clearance of β-Amyloid in Mice,likely_unreplicated,no,Not single-cell / single-nucleus transcriptomics
+GSE316894,2026,6,Spatiotemporal Dynamics of Peripheral Immunity in OSA: A Single-Cell Atlas of the Genioglossus,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast
+GSE337822,2026,20,Transcriptomic Signatures Reveal Overlapping Shared and DistinctYet State-Specific Preoptic Neuronal Ensembles,unclear,no,Sleep-related but no acute sleep-deprivation or recovery-sleep contrast

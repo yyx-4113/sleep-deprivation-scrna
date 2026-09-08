@@ -1,0 +1,19 @@
+accession,year,n_samples,pmid,title
+GSE137665,2022,9,35986171,Single-cell transcriptomics and analysis for new molecular regulators of sleep
+GSE211088,2023,16,39280614,RNA-Seq and snRNA-seq analysis of Sleep deprivation in Wildtype Mice
+GSE213496,2023,3,38016470,Prolonged sleep deprivation induces cytokine storm-like syndrome in mammals [scRNA-Seq]
+GSE218624,2026,2,42321470,Single cell RNA-sequencing of the preoptic area of hypothalamus from sleep deprivation and rebound sleep mice
+GSE243489,2024,19,38703367,Single-nucleus RNA-seq identifies one galanin neuronal subtype in mouse preoptic hypothalamus activated during recovery sleep after sleep deprivation
+GSE289089,2025,4,NA,Small intestinal crypt cell subsets and gene expression in sleep-deprived mice
+GSE221239,2023,7,38263460,Single-cell transcriptomics reveals glial cells integrate homeostatic and circadian processes to drive sleep-wake cycle
+GSE256140,2025,8,39950545,Sleep need driven oscillation of glutamatergic synaptic phenotype
+GSE280145,2024,2,NA,LK immunophenotype cells after sleep deprivation.
+GSE214337,2022,4,36477539,Gene expression profile at single cell level of the cerebral cortex at different sleep need
+GSE245537,2023,6,40536979,Persistence of homeostatic sleep drive is encoded by plasticity of a thalamic reuniens circuit
+GSE312840,2026,2,42174655,Dual Orexin Receptor Antagonism with Lemborexant Enhances Microglial Clearance of β-Amyloid in Mice
+GSE301350,2025,2,NA,Cell-Specific Transcriptomic and Mito-Nuclear Imbalance in Lungs Under Intermittent Hypoxia in Adult Male Mice. 
+GSE264175,2025,1,40739350,Respiratory viral infection promotes the awakening and outgrowth of dormant metastatic breast cancer cells in lungs
+GSE283586,2025,1,NA,Heat Shock Factor 1 Governs Sleep-Wake Cycles Across Species [snRNA-Seq]
+GSE160581,2021,4,NA,Hyperexcitable arousal circuits cause sleep instability during aging
+GSE188646,2022,8,36285248,Single cell analysis of the aging hypothalamus
+GSE200642,2022,9,36180478,Integrative single cell and spatial transcriptomic analysis reveal reciprocal microglia-plasma cell crosstalk in the mouse brain during chronic Trypanosoma brucei infection

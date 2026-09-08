@@ -1,0 +1,18 @@
+log2(CPM + 1) layout (rows = region, cols = A1/A2/A3):
+  Hypothalamus   14.449   11.348   14.375
+  Brainstem       5.269    3.983    4.571
+  Cortex          3.605    3.436    3.505
+
+SS region      = 175.864 (df 2)
+SS condition   = 3.898 (df 2)
+SS interaction = 3.209 (df 4) -> used as error
+MS error       = 0.8022  -> residual SD = 0.8957 log2 units
+SE of a condition difference = 0.7313
+
+Region x condition interaction is the error term in an unreplicated
+randomised block. It is grossly inflated here because the region effect
+is ~10 log2 units, so this is a deliberately conservative bound.
+
+A1 - A2 = +1.519 log2   95% interval [-0.512, +3.549]  (width 4.06)
+A1 - A3 = +0.291 log2   95% interval [-1.739, +2.321]  (width 4.06)
+A2 - A3 = -1.228 log2   95% interval [-3.258, +0.802]  (width 4.06)

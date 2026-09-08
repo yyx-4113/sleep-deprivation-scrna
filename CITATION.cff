@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "sleep-deprivation-scrna: reproducibility bundle for a data commentary on pseudoreplication, data leakage and inference limits in single-cell transcriptomics of sleep deprivation"
+abstract: >-
+  Companion code and data for a data commentary on mouse single-cell and
+  single-nucleus transcriptomic datasets of acute sleep deprivation and
+  recovery sleep. The bundle provides a GEO-driven inventory builder that
+  regenerates the manuscript's Table 1 directly from NCBI GEO esummary
+  records, a PubMed-based audit that verifies every cited reference, the
+  randomised-block and magnitude-arithmetic computations, the per-GSM
+  adjudication records, and the figure-generation scripts.
+type: software
+authors:
+  - family-names: "Yang"
+    given-names: "Yongxin"
+    orcid: "https://orcid.org/0009-0004-9698-6552"
+    affiliation: "The Second Affiliated Hospital of Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian 350003, China"
+    email: "960856791@qq.com"
+repository-code: "https://github.com/yongxinyang/sleep-deprivation-scrna"
+url: "https://github.com/yongxinyang/sleep-deprivation-scrna"
+keywords:
+  - sleep deprivation
+  - recovery sleep
+  - single-cell RNA-seq
+  - pseudoreplication
+  - data leakage
+  - ambient RNA
+  - reproducibility
+  - research integrity
+  - GEO
+  - meta-research
+license: MIT
+version: 1.0.0
+date-released: "2026-09-08"
+preferred-citation:
+  type: article
+  title: "Unreplicated by design: pseudoreplication, data leakage and the limits of inference in single-cell transcriptomics of sleep deprivation"
+  journal: "Neurobiology of Sleep and Circadian Rhythms"
+  year: 2026
+  authors:
+    - family-names: "Yang"
+      given-names: "Yongxin"
+      orcid: "https://orcid.org/0009-0004-9698-6552"

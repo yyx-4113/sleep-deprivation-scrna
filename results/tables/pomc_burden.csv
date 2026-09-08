@@ -1,0 +1,4 @@
+library,condition,n_cells,total_UMI,Pomc_UMI,Pomc_CPM,mean_UMI_per_cell,Pomc_pct_of_library,Pomc_UMI_per_cell_if_uniform,implied_UMI_at_0.005,pct_of_transcriptome_at_0.005,implied_UMI_at_0.01,pct_of_transcriptome_at_0.01,implied_UMI_at_0.075,pct_of_transcriptome_at_0.075,implied_UMI_at_0.306,pct_of_transcriptome_at_0.306,implied_UMI_at_0.5,pct_of_transcriptome_at_0.5
+JHA710A1,A1,3491,3965301,88700,22369.04588075407,1135.9,2.237,25.41,5217.6,459.4,2534.3,223.1,338.5,29.8,83.1,7.3,50.8,4.5
+JHA710A2,A2,2706,2121900,5528,2605.212309722419,784.1,0.261,2.04,394.9,50.4,204.7,26.1,27.2,3.5,6.7,0.9,4.1,0.5
+JHA710A3,A3,3916,5488950,116647,21251.241129906448,1401.7,2.125,29.79,5832.4,416.1,2990.9,213.4,396.8,28.3,97.4,6.9,59.6,4.3

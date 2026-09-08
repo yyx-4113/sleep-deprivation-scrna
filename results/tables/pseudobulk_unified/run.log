@@ -1,0 +1,70 @@
+================================================================================
+UNIFIED PSEUDO-BULK CPM EFFECT SIZE (sparse)
+================================================================================
+
+[1] Loading raw h5ad... (sparse, no densify)
+    Shape: (29571, 18634)
+    Libraries: ['JHA710A1', 'JHA710A2', 'JHA710A3', 'VAL173A1', 'VAL173A2', 'VAL173A3', 'VAL630A1', 'VAL630A2', 'VAL630A3']
+    X: <class 'scipy.sparse._csr.csr_matrix'>
+
+[2] Column sums (total counts per gene across all cells)...
+    Done. Total UMI across dataset: 31,468,255
+
+[3] Per-library CPM (RAW counts):
+     sample  brain_region condition_code  n_cells  Pomc_total_counts      Pomc_CPM   Pcsk2_CPM   Pcsk1n_CPM     Gnas_CPM   Anxa2_CPM   Tbx3_CPM
+0  JHA710A1  Hypothalamus             A1     3491              88700  22369.045881  194.688877  1503.795046  2447.481288  115.249763  11.852820
+1  JHA710A2  Hypothalamus             A2     2706               5528   2605.212310   75.404119  1105.612894  1589.141807  126.773175  13.195721
+2  JHA710A3  Hypothalamus             A3     3916             116647  21251.241130  235.746363  1174.905947  2348.536605  101.840971   6.012079
+3  VAL173A1     Brainstem             A1     3731                167     37.561532   26.990323   169.364274   513.265968  135.401452  22.267016
+4  VAL173A2     Brainstem             A2     3519                 51     14.816145   34.571004   210.331152   408.460774  142.932220  20.045372
+5  VAL173A3     Brainstem             A3     3713                111     22.765994   40.199414   164.079240   403.019632  131.263392  15.792627
+6  VAL630A1        Cortex             A1     2575                 17     11.163895  407.153824   798.546855   644.222422   31.521586   5.910297
+7  VAL630A2        Cortex             A2     3175                 19      9.825154  373.872951   773.601570   732.232502   34.129481  14.996287
+8  VAL630A3        Cortex             A3     2745                 38     10.349700  454.842080   917.854976   779.768189   31.593821   6.809013
+
+[4] Per-cell Pomc metrics (for reconciliation with prior ms):
+     sample  mean_log1p_per_cell  mean_CPM_per_cell  pct_Pomc_pos
+0  JHA710A1             2.028876       27246.751186     50.386709
+1  JHA710A2             0.315786        2287.476420      7.945307
+2  JHA710A3             2.260530       26192.052457     65.704801
+3  VAL173A1             0.082428          34.185051      3.832753
+4  VAL173A2             0.031702          15.023021      1.392441
+5  VAL173A3             0.058519          24.063527      2.747105
+6  VAL630A1             0.016038           8.525363      0.660194
+7  VAL630A2             0.016966          11.651199      0.598425
+8  VAL630A3             0.027737          13.481940      1.238616
+
+[5] Log2 fold changes per region (UNIFIED pseudobulk CPM):
+         region comparison  Pomc_CPM_denom  Pomc_CPM_num  log2FC_Pomc_CPM  linear_FC_Pomc
+0  Hypothalamus   SD_vs_NS    22369.045881   2605.212310        -3.102031        0.116465
+1  Hypothalamus   RS_vs_NS    22369.045881  21251.241130        -0.073957        0.950029
+2  Hypothalamus   RS_vs_SD     2605.212310  21251.241130         3.028074        8.157201
+3     Brainstem   SD_vs_NS       37.561532     14.816145        -1.342086        0.394450
+4     Brainstem   RS_vs_NS       37.561532     22.765994        -0.722375        0.606099
+5     Brainstem   RS_vs_SD       14.816145     22.765994         0.619710        1.536567
+6        Cortex   SD_vs_NS       11.163895      9.825154        -0.184289        0.880083
+7        Cortex   RS_vs_NS       11.163895     10.349700        -0.109252        0.927069
+8        Cortex   RS_vs_SD        9.825154     10.349700         0.075037        1.053388
+
+[6] HYPOTHALAMUS Pomc (unified metric):
+  NS (JHA710A1): CPM=22369.0  tot=88700
+  SD (JHA710A2): CPM=2605.2  tot=5528
+  RS (JHA710A3): CPM=21251.2  tot=116647
+  SD/NS = 0.12x  log2=-3.102
+  RS/NS = 0.95x  log2=-0.074
+  RS/SD = 8.16x  log2=3.028
+  Rebound direction: RS below NS baseline
+
+[7] RECONCILIATION with prior inconsistent metrics:
+  OLD cell-level Wilcoxon log2FC = -4.08 (~17x, pseudo-replicated over cells)
+  OLD log-normalized means NS=2.03 SD=0.32 (per-cell log1p CPM avg)
+  OLD CPM per library NS=22369 SD=2605 -> 0.1x
+  NEW UNIFIED pseudobulk CPM log2FC = -3.102 (0.12x)
+
+[8] Saved D:\projects\sleep-deprivation-project\manuscript\results\tables\pseudobulk_unified/pseudobulk_per_library.csv
+[9] Saved D:\projects\sleep-deprivation-project\manuscript\results\tables\pseudobulk_unified/pseudobulk_fold_changes.csv
+
+=== CRITICAL NOTE ===
+Only 1 pooled library per (region x condition); no between-library variance.
+All effect sizes are POINT OBSERVATIONS, not statistically supported.
+=== DONE ===
